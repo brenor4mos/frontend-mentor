@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+:root{
+    --fonte-padrao: 'Inter', Arial;
+}
+
+body {
+    position: relative;
+    background-color: #141414;
+    height: 97vh;
+    font-family: var(--fonte-padrao);
+}
+
+div#login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1F1F1F;
+    width: 330px;
+    height: 700px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+div.img{
+    margin: 20px auto;
+    background-image: url(../imagens/avatar-jessica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 130px;
+}
+
+#local{
+    margin-top: -8px;
+    color: #b3ca5d;
+    font-weight: bold;
+}
+
+#p {
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#links{
+    height: 70%;
+    width: 100%;
+}
+
+a {
+    display: flex;
+    margin: 15px auto;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 10px;
+    width: 75%;
+    padding: 20px;
+    color: white;
+    background-color: #333333;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #575757;
+}
+
+
+@media screen and (min-width: 768px)  {
+    div#login{
+        width: 500px;
+    }
+}

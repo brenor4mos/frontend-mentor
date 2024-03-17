@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de classificação interativa</title>
+    <link rel="shortcut icon" href="image/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div id="pai">
+        <div id="img"><img src="image/icon-star.svg" alt=""></div>
+        <h1>Como fizemos?</h1>
+        <p>Informe-nos como nos saímos com sua solicitação de suporte. Todos os comentários são apreciados para nos ajudar a melhorar nossa oferta!</p>
+        <div class="avaliacao">
+            <div class="nota">
+                <label>
+                    <input type="radio" name="nota" id="" value="1">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="nota">
+                <label>
+                    <input type="radio" name="nota" id="" value="2">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="nota">
+                <label>
+                    <input type="radio" name="nota" id="" value="3">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="nota">
+                <label>
+                    <input type="radio" name="nota" id="" value="4">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="nota">
+                <label>
+                    <input type="radio" name="nota" id="" value="5">
+                    <span>5</span>
+                </label>
+            </div>
+        </div>
+        <input type="submit" value="Enviar" onclick="cliquei()"> 
+
+        <!-- Enviar Você selecionou entre 5 Obrigado! Agradecemos por dedicar seu tempo para avaliar. Se precisar de mais suporte, não hesite em entrar em contato!</div> -->
+    <script>
+        function cliquei(n) {
+            console.log('OLA')
+        }
+    </script>
+</body>
+</html>

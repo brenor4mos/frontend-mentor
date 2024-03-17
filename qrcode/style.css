@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --cor01: #ffffff;
+    --cor02: #d6e2f0;
+    --cor03: #7b879d;
+    --cor04: #1f3251;
+
+    --fonte-padrao: "Outfit", Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+#caixa {
+    background-color: var(--cor01);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.103);
+}
+
+div>img {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 10px;
+    color: var(--cor04);
+}
+
+p {
+    padding: 10px;
+    color: var(--cor03);
+    font-size: 15px;
+}

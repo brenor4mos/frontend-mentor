@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor01: #fb7413;
+    --cor02: #ffffff;
+    --cor03: #959eac;
+    --cor04: #7c8798;
+    --cor05: #252d37;
+    --cor06: #121417;
+    --fonte-padrao:"Overpass", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body{
+    background-color: var(--cor06);
+}
+
+#pai{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor05); 
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+    list-style: none;
+}
+
+#img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #171E27 , #212932); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: var(--cor02);
+    padding: 10px 0px;
+}
+
+p{
+    color: var(--cor03);
+    padding: 15px 0px;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.avaliacao:after{
+    content: "";
+    clear: both;
+
+}
+
+.nota{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    position: relative;
+    width: 50px;
+    border: none;
+    
+}
+
+.nota + .nota {
+    margin-left: 25px;
+}
+
+.nota label{
+    background: #253037 no-repeat center center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    white-space: nowrap;
+    border-radius: 50%;
+    color: white;
+}
+
+.nota label span{
+    z-index: 1;
+}
+
+.nota label input[type=radio] {
+    all: unset;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #253037;
+}
+
+.nota label:hover {
+    background-color: var(--cor04);
+}
+
+.nota label input[type=radio]:hover{
+    background-color: var(--cor04);
+}
+
+.nota label input[type=radio]:checked{
+    background-color: var(--cor01);
+}
+
+.nota label input[type=radio]:checked + span{
+    color: var(--cor02);
+}
+
+
+
+button:hover{
+    background-color:  #7C8894;
+}
+
+
+input{
+    background-color: var(--cor01);
+    color: var(--cor02);
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0px;
+}
+
+input:hover{
+    background-color: #fa822c;
+}

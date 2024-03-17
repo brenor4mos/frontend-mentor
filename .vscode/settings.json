@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "Conteudo",
+        "premium"
+    ],
+    "cSpell.enableFiletypes": [
+        "!css"
+    ],
+    "editor.fontFamily": "JetBrains Mono",
+    "files.autoSave": "afterDelay",
+    "cSpell.language": "pt-BR,en"
+}

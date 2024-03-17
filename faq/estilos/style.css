@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+
+:root{
+    --cor01: #ffffff;
+    --cor02: #f9f0ff;
+    --cor03: #8c6991;
+    --cor04: #2f1533;
+
+    --fonte-padrao: 'WorkSans', Arial, sans-serif;
+}
+
+.res{
+    display: none;
+}
+
+

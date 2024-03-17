@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'YoungSerif' ;
+    src: url(../fonts/YoungSerif-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+:root{
+    --cor1:#854632;
+    --cor2:#7b284f;
+
+    --cor00: #ffffff;
+    --cor01 : #fff5fa;
+    --cor02: #f3e6d8;
+    --cor03: #e4ded8;
+    --cor04: #5f574e;
+    --cor05: #302d2c;
+
+
+    --fonte-padrao: 'Outfit';
+    --fonte-secund: 'YoungSerif', Arial, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+
+#prato{
+    background-image: url(../image/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 172px;
+    width: 100%;
+}
+
+hr{
+    color: #302d2c;
+    margin: 20px 0px;
+}
+main{
+    background-color: var(--cor00);
+}
+section{
+    line-height: 30px;
+    padding: 25px 20px;
+    
+}
+
+h1 {
+    font-size: 2.3em;
+    font-family: var(--fonte-secund);
+    font-weight: 400;
+    line-height: 45px;
+    padding-bottom: 15px;
+}
+
+p{
+    font-family: var(--fonte-padrao);
+    padding: 15px;
+    color: #302d2c;
+}
+
+#preparo{
+    padding: 25px 35px;
+    border-radius: 15px;
+    background-color: #FFF7FC;
+}
+#preparo > h3{
+    color: var(--cor2);
+}
+#preparo > ul > li{
+    padding: 10px 0px;
+}
+
+h2 {
+    font-family: var(--fonte-secund);
+    font-weight: normal;
+    color: var(--cor1);
+    padding: 20px 0px;
+}
+
+li{
+    margin-left: 15px;
+    padding: 6px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    gap: 200px;
+    padding: 10px 0px;
+}
+
+.dados{
+    color:var(--cor1);
+    font-weight: bold;
+}
