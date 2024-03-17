@@ -2,6 +2,6 @@
  Exercício do site do Frontend Mentor
 
 
-<a href="">Perfil</a> <br>
-<a href="">Página de receitas</a> <br>
-<a href="">QR</a>
+<a href="https://brenor4mos.github.io/frontend-mentor/perfil/">Perfil</a> <br>
+<a href="https://brenor4mos.github.io/frontend-mentor/pagina-de-receitas/">Página de receitas</a> <br>
+<a href="https://brenor4mos.github.io/frontend-mentor/qrcode/">QR</a>
